@@ -1,5 +1,3 @@
-# VolTera 🚀⚡
-
 <div align="center">
 
 ![VolTera Logo](voltera_logo.png)
