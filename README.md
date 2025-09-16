@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![VolTera Logo](voltera_blueprint.png)
+![VolTera Logo](voltera_logo.png)
 
 [![Website](https://img.shields.io/badge/🌐_Website-voltera--dash.vercel.app-blue?style=for-the-badge)](https://voltera-dash.vercel.app/)
 [![Status](https://img.shields.io/badge/Status-MVP_Development-yellow?style=for-the-badge)]()
