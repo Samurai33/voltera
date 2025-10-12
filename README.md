@@ -1,252 +1,196 @@
 <div align="center">
 
-![VolTera Logo](voltera_logo.png)
+![VoltEra Logo](voltera_logo.png)
 
 [![Website](https://img.shields.io/badge/🌐_Website-voltera--dash.vercel.app-blue?style=for-the-badge)](https://voltera-dash.vercel.app/)
-[![Status](https://img.shields.io/badge/Status-MVP_Development-yellow?style=for-the-badge)]()
+[![Status](https://img.shields.io/badge/Status-Network_Architecture_Development-yellow?style=for-the-badge)]()
 [![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)]()
 [![Energy](https://img.shields.io/badge/⚡_Powered_by-Solar_Energy-green?style=for-the-badge)]()
 
-**O futuro dos datacenters residenciais para gamers profissionais**
+**A infraestrutura solar descentralizada para a nova era da computação**
 
-*Autonomia energética • Performance extrema • Sustentabilidade*
+*Energia autônoma • Computação distribuída • Soberania digital*
 
 </div>
 
 ---
 
-## 🎯 Visão Geral
+## 🧭 Visão Geral
 
-VolTera revoluciona a infraestrutura de gaming profissional ao oferecer **mini-datacenters modulares** que combinam energia renovável, computação de alto desempenho e redundância enterprise em escala residencial.
+A **VoltEra** é uma rede de **mini data centers solares autônomos**, projetada para **descentralizar o poder computacional** atualmente concentrado em Big Techs como Google, Microsoft e Amazon.
 
-### 🚀 O Produto
+Cada unidade VoltEra é um **nó energético e computacional autossuficiente**, capaz de gerar sua própria energia, armazenar dados localmente e participar de uma **rede P2P global** de computação verde.
 
-O **VolTera Gamer Rack** é um datacenter doméstico que oferece:
-
-- **🌞 Energia Autônoma**: Painéis solares + baterias LiFePO4 + supercapacitores
-- **🎮 Performance Pro**: Servidores dedicados, GPUs RTX/MI, storage RAID
-- **🔒 Redundância Total**: Dupla redundância em energia, rede e refrigeração
-- **📱 Controle Inteligente**: App VolTera Control com métricas em tempo real
-
-![VolTera Architecture](voltera_blueprint.png)
-*Arquitetura técnica do sistema VolTera*
+> ⚡ “A VoltEra transforma energia solar em poder computacional livre.”
 
 ---
 
-## 🎮 Para Quem?
+## 🌞 O Conceito
 
-### 👨‍💻 Streamers Profissionais
-- Encoding dedicado 24/7
-- Zero dependência de serviços externos
-- Backup automático de conteúdo
+O **VoltEra Node** combina:
+- **Energia Renovável** (painéis solares + baterias LiFePO₄)
+- **Compute de Alta Performance** (CPU/GPU server-grade)
+- **Storage Descentralizado** (IPFS, Storj ou Sia)
+- **Rede P2P Segura** (WireGuard + LibP2P)
+- **Monitoramento IA** (autobalanceamento de energia e carga)
 
-### 🏆 Pro Players & E-sports
-- Latência ultra-baixa
-- Servidores dedicados para treino
-- Performance consistente
+Cada nó pode operar **de forma isolada (off-grid)** ou **como parte de uma rede global**, redistribuindo energia, poder de processamento e armazenamento.
 
-### 🏢 Estúdios de Gaming
-- Solução escalável para equipes
-- Gerenciamento centralizado
-- Múltiplas VMs simultâneas
+![VoltEra Network](voltera_network_diagram.png)
+*Arquitetura técnica da rede solar descentralizada VoltEra*
 
 ---
 
-## ⚡ Especificações Técnicas
+## 🔩 Camadas Técnicas
 
-### 🔋 Sistema de Energia
-- **Geração Solar**: 1-2 kWp (painéis portáteis)
-- **Armazenamento**: 5-10 kWh LiFePO4
-- **Autonomia**: 6-12 horas sem rede
-- **Eficiência**: PUE < 1.2
-
-### 💻 Computação
-- **CPU**: AMD Threadripper / Intel Xeon
-- **GPU**: RTX 4090/5090 / AMD MI-series
-- **RAM**: 64-256 GB ECC
-- **Storage**: NAS RAID-6 (50-100 TB)
-
-### 🌐 Conectividade
-- **Switch**: 10 GbE com failover
-- **Internet**: Dual WAN com SD-WAN
-- **Wi-Fi**: Wi-Fi 7 (opcional)
-- **Latência**: < 1ms local
-
-### ❄️ Refrigeração
-- **Ativa**: Ventilação forçada + loop líquido
-- **Passiva**: Free-cooling noturno
-- **Temperatura**: 18-27°C (ASHRAE)
-- **Ruído**: < 35 dB
+| Camada | Função | Tecnologias |
+|--------|--------|-------------|
+| **Energia** | Geração solar + armazenamento local | MPPT, LiFePO₄, 48VDC bus, inversores híbridos |
+| **Computação** | Execução de containers e IA local | K3s, Docker, GPU AMD/NVIDIA, Ryzen/EPYC |
+| **Storage** | Armazenamento distribuído e redundante | IPFS, Sia, Storj |
+| **Rede** | Conexão P2P criptografada | WireGuard, Tailscale, LibP2P |
+| **Orquestração IA** | Distribuição dinâmica de workloads | Python, Node-RED, MQTT, OpenAI API |
+| **Dashboard Global** | Visualização e controle de todos os nós | Next.js, Supabase, Grafana |
+| **Token de Incentivo** | Economia descentralizada da rede | Smart Contracts (ERC-20 / Polygon) |
 
 ---
 
-## 🛡️ Segurança & Conformidade
+## 🧱 O Produto
 
-### 🔒 Física
-- Rack com vidro temperado e chave
-- Biometria / RFID
-- Câmeras internas
-- Detecção de intrusão
+### 🧩 VoltEra Node (Unidade Base)
+Um **módulo autônomo de computação e energia**, operando 100% com energia solar.
 
-### 🌐 Lógica
-- Firewall enterprise
-- VPN dedicada
-- Monitoramento SOC 24/7
-- Compliance LGPD
-
-### 📋 Certificações
-- **TIA-942-C**: Infraestrutura de datacenter
-- **ASHRAE**: Controle térmico
-- **NFPA 75**: Proteção contra incêndio
-- **ISO 27001**: Segurança da informação
-- **ISO 50001**: Gestão energética
+**Especificações:**
+- Painéis solares: 2,5–4 kWp
+- Baterias: 10–15 kWh LiFePO₄
+- Inversor híbrido: 5 kVA / 48 V
+- CPU: Ryzen 7 / Xeon Silver
+- RAM: 64–128 GB ECC
+- Storage: 8–20 TB SSD + IPFS Sync
+- Rede: 10 GbE / LTE / Mesh Wi-Fi
+- Consumo médio: 400–800 W
+- Refrigeração: Ativa + Free Cooling
+- Controle: VoltEra Dash + API REST
 
 ---
 
-## 📊 Dashboard & Monitoramento
+## 🛰️ Rede Global VoltEra
 
-### 📱 VolTera Control App
-- **Performance**: FPS, latência, recursos
-- **Energia**: Geração solar, consumo, economia
-- **Ambiente**: Temperatura, umidade, ruído
-- **Sustentabilidade**: CO₂ evitado, badges verdes
+### 🌐 Topologia
+Cada **VoltEra Node** é parte de uma **rede mesh descentralizada**:
+- Sincroniza dados e cargas computacionais entre pares
+- Redistribui energia solar excedente localmente
+- Opera mesmo offline (sync assíncrono)
+- Balanceia tarefas por IA (proximidade, energia, carga)
+
+### ⚙️ Operações Distribuídas
+- Renderização de IA e vídeo  
+- Hospedagem de serviços locais  
+- Armazenamento descentralizado (dApp / web3)  
+- Execução de agentes e LLMs locais  
+
+---
+
+## 🔒 Segurança e Autonomia
+
+### ⚡ Energética
+- Painéis + Baterias LiFePO₄ (autonomia 24–48h)
+- Gestão térmica e PUE < 1.3
+- Proteção elétrica completa (SPD, DR, UPS)
+
+### 🔐 Digital
+- Criptografia ponta a ponta (AES-256 + WireGuard)
+- Autenticação federada e zero-trust
+- Ledger blockchain para verificação de uptime e energia
+- Compliância LGPD / ISO 27001
+
+---
+
+## 📊 VoltEra Cloud Dashboard
+
+### 🌍 Painel Global
+- Status de todos os nós ativos
+- Geração solar vs consumo
+- Workloads executando
+- Recompensas de tokens
+- Métricas ambientais (CO₂ evitado, uptime, temperatura)
 
 ### 🔔 Alertas Inteligentes
-- Falhas de hardware
-- Picos de temperatura
-- Quedas de rede
-- Níveis de bateria
-
----
-
-## 🌱 Sustentabilidade
-
-### ♻️ Impacto Ambiental
-- **Energia Limpa**: 80% solar durante o dia
-- **Economia Circular**: Componentes recicláveis
-- **Eficiência**: 60% menos consumo vs setup tradicional
-- **Certificação**: Selo verde de sustentabilidade
-
-### 📈 Métricas Verdes
-- CO₂ evitado em tempo real
-- Economia de energia mensal
-- Pegada carbono vs alternativas
-- Contribuição para ODS da ONU
-
----
-
-## 🚀 Roadmap 2025
-
-| Período | Marco |
-|---------|-------|
-| **Q1 2025** | MVP + Protótipo funcional |
-| **Q2 2025** | Testes com beta users |
-| **Q3 2025** | Pré-lançamento + Certificações |
-| **Q4 2025** | Launch comercial Brazil |
+- Excedente energético disponível
+- Queda de produção solar
+- Falha em nó remoto
+- Desvio térmico
 
 ---
 
 ## 💰 Modelo de Negócio
 
-### 💎 Hardware Premium
-- **Starter**: R$ 45.000 (5 kWh)
-- **Pro**: R$ 75.000 (10 kWh)
-- **Enterprise**: R$ 120.000 (custom)
+### 💎 Hardware
+- **Node Base**: R$ 65.000  
+- **Node Pro (GPU)**: R$ 95.000  
+- **Node Enterprise (Cluster)**: sob consulta  
 
-### 📱 Software & Serviços
-- **VolTera Control**: R$ 99/mês
-- **Cloud Backup**: R$ 49/mês
-- **Suporte 24/7**: R$ 199/mês
-
-### 🔧 Serviços Profissionais
-- Instalação e configuração
-- Manutenção preventiva
-- Upgrades de hardware
-- Consultoria energética
+### ☁️ Serviços e Rede
+- **VoltEra Cloud Access**: R$ 199/mês  
+- **Analytics + IA Distribuída**: R$ 299/mês  
+- **Node Operator Rewards**: até 12% ROI anual via tokens
 
 ---
 
-## 📁 Documentação Técnica
+## 📈 Roadmap 2025–2026
 
-### 📋 Documentos Disponíveis
-
-- **[📊 Executive Summary](VolTera_Executive_Summary.md)**: Visão estratégica e modelo de negócio
-- **[🏗️ PRD & Architecture](VolTera_PRD_and_Architecture.md)**: Requisitos técnicos e arquitetura
-- **[⚖️ Compliance & Regulation](VolTera_Compliance_and_Regulation.md)**: Normas e certificações
-- **[🛡️ Risk Management](VolTera_Risk_and_Mitigation.md)**: Análise de riscos e mitigações
-- **[📖 Operations Manual](VolTera_Operations_Manual.md)**: Manual de operação
-- **[🚀 Startup Guide](VolTera_Startup_Guide.md)**: Guia de implementação
-
-### 📊 Planilhas e Dados
-
-- **[💰 Financial Model](VolTera_Financial_Model.xlsx)**: Projeções financeiras
-- **[⚠️ Risk Register](VolTera_Risk_Register.xlsx)**: Registro de riscos
-- **[✅ Compliance Register](VolTera_Compliance_Register.xlsx)**: Status de conformidade
-- **[🗓️ Roadmap](VolTera_Roadmap.csv)**: Cronograma de desenvolvimento
-- **[🔧 Bill of Materials](VolTera_BOM.xlsx)**: Lista de componentes
+| Período | Etapa |
+|----------|-------|
+| **Q1 2025** | MVP Node funcional + integração solar |
+| **Q2 2025** | Rede local P2P + IPFS Sync |
+| **Q3 2025** | VoltEra Cloud Dashboard + token interno |
+| **Q4 2025** | Beta público de rede descentralizada |
+| **Q2 2026** | Lançamento comercial global |
 
 ---
 
-## 🤝 Parcerias e Investimento
+## 🧩 Parcerias Estratégicas
 
-### 🎯 Buscamos
-
-- **💰 Investimento Seed**: R$ 8 milhões
-- **🤝 Parcerias**: Fabricantes de GPU, streaming platforms
-- **🏢 Clientes Beta**: Streamers e pro players
-- **🔬 P&D**: Universidades e centros de pesquisa
-
-### 📞 Contato
-
-- **🌐 Website**: [voltera-dash.vercel.app](https://voltera-dash.vercel.app/)
-- **📧 Email**: contato@voltera.com.br
-- **💼 LinkedIn**: /company/voltera-gaming
-- **🐦 Twitter**: @VolTeraGaming
+- 🌞 **Fabricantes de Energia Solar**
+- 🧠 **Plataformas de IA Distribuída**
+- 🖥️ **Fabricantes de Servidores Edge**
+- 🌐 **Infraestrutura Web3**
+- 🧪 **Centros de P&D e Universidades**
 
 ---
 
-## 🏆 Diferenciais Competitivos
+## 🏆 Diferenciais VoltEra
 
-### 🎮 Gaming-First Design
-- Interface otimizada para gamers
-- Estética premium RGB
-- Integração com plataformas de streaming
-
-### 🌞 Sustentabilidade Real
-- Primeira solução 100% renovável do mercado
-- Métricas ambientais transparentes
-- Economia circular implementada
-
-### 🏢 Nível Datacenter
-- Redundâncias enterprise
-- SLA de 99.9% uptime
-- Monitoramento profissional
-
-### 🇧🇷 Made in Brazil
-- Desenvolvimento nacional
-- Suporte em português
-- Adequação à regulação brasileira
+| Pilar | Descrição |
+|--------|-----------|
+| **Descentralização Real** | Computação e energia independentes das Big Techs |
+| **Energia Verde Autônoma** | 100% solar, com armazenamento local |
+| **Rede Global P2P** | Interconexão segura e autobalanceada |
+| **Economia Colaborativa** | Cada nó é um ativo que gera valor |
+| **IA Integrada** | Gerenciamento e orquestração inteligentes |
+| **Sustentabilidade Transparente** | Métricas públicas de eficiência e CO₂ evitado |
 
 ---
 
-## 📜 Licença e Conformidade
+## ⚖️ Conformidade e Licença
 
-Este projeto está protegido por direitos autorais e contém informação proprietária da VolTera Gaming Technologies.
+**Regulamentações:**
+- Lei 14.300/2022 — Microgeração Distribuída  
+- REN 1098/2024 — Geração Local ANEEL  
+- LGPD / ISO 27001 / ISO 50001  
 
-**Regulamentação Brasileira:**
-- Lei 14.300/2022 (Microgeração Distribuída)
-- REN 1098/2024 ANEEL
-- LGPD (Lei Geral de Proteção de Dados)
+**Licença:** Proprietária © 2025 VoltEra Technologies  
+Uso comercial e redistribuição não autorizados sem consentimento.
 
 ---
 
 <div align="center">
 
-**VolTera Gaming Technologies**  
-*Democratizando o acesso a infraestrutura de datacenter de alta performance*
+**VoltEra Technologies**  
+*Descentralizando energia e computação — uma revolução solar.*
 
 [![Website](https://img.shields.io/badge/🌐_voltera--dash.vercel.app-Visit_Our_Site-blue?style=for-the-badge)](https://voltera-dash.vercel.app/)
 
-*© 2025 VolTera Gaming Technologies. Todos os direitos reservados.*
+*© 2025 VoltEra Technologies. Todos os direitos reservados.*
 
 </div>
