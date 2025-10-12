@@ -17,11 +17,21 @@
 
 ## 🧭 Visão Geral
 
-A **VoltEra** é uma rede de **mini data centers híbridos autônomos** movidos por **energia solar e eólica**, projetada para **descentralizar o poder computacional e energético** concentrado hoje em gigantes como Google, Microsoft e Amazon.
+A **VoltEra** é uma rede de **mini data centers híbridos autônomos** movidos por **energia solar e eólica**, projetada para **descentralizar o poder computacional e energético** hoje concentrado em Big Techs como Google, Microsoft e Amazon.
 
 Cada unidade **VoltEra Node** é um **nó inteligente de energia e computação**, capaz de gerar, armazenar e compartilhar seus próprios recursos em uma **rede global P2P de computação verde**.
 
 > ⚡ “A VoltEra transforma vento e sol em poder computacional livre.”
+
+---
+
+## 🖼 Ilustração do Node Híbrido
+
+<div align="center">
+  <img src="https://sdmntprcentralus.oaiusercontent.com/files/00000000-5e0c-61f5-b992-fb0f365d19aa/raw?se=2025-10-12T06%3A49%3A37Z&sp=r&sv=2024-08-04&sr=b&scid=63b0a002-7308-5484-b7fb-a3649e6219e1&skoid=f28c0102-4d9d-4950-baf0-4a8e5f6cf9d4&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-10-11T10%3A57%3A23Z&ske=2025-10-12T10%3A57%3A23Z&sks=b&skv=2024-08-04&sig=bEEdzMwC5VIYGcy65Zcm4DrZlvp%2B3ySxmpJ0XEHaXN0%3D" alt="VoltEra Hybrid Node" width="70%" style="border-radius:12px; margin-top:10px;">
+  <br/>
+  <em>Visualização conceitual do Node VoltEra híbrido solar + eólico</em>
+</div>
 
 ---
 
@@ -30,7 +40,7 @@ Cada unidade **VoltEra Node** é um **nó inteligente de energia e computação*
 O **VoltEra Node** combina tecnologias de energia renovável e computação avançada em um único sistema modular:
 
 - **☀️ Solar Power** — Geração diurna com painéis fotovoltaicos de alta eficiência  
-- **🌬️ Wind Power** — Geração noturna e constante com turbinas eólicas verticais silenciosas  
+- **🌬️ Wind Power** — Geração noturna e constante com turbinas eólicas verticais magnéticas e silenciosas  
 - **🔋 Armazenamento Inteligente** — Baterias LiFePO₄ + supercapacitores  
 - **🧠 Orquestração IA** — Balanceamento dinâmico entre vento, sol e carga computacional  
 - **💻 Compute Descentralizado** — Hospedagem de IA, web, renderização e containers locais  
@@ -39,7 +49,7 @@ O **VoltEra Node** combina tecnologias de energia renovável e computação avan
 Cada nó se adapta ao clima em tempo real:  
 > se o sol se põe, o vento assume; se o vento cessa, o sol recarrega.
 
-![VoltEra Hybrid Node](voltera_hybrid_diagram.png)
+![VoltEra Network](voltera_network_diagram.png)
 *Arquitetura híbrida solar-eólica e computacional do sistema VoltEra*
 
 ---
@@ -54,7 +64,7 @@ Cada nó se adapta ao clima em tempo real:
 | **Rede** | Conexão P2P criptografada | WireGuard, Tailscale, LibP2P |
 | **Orquestração IA** | Distribuição e otimização energética e computacional | Python, Node-RED, MQTT, OpenAI API |
 | **Dashboard Global** | Visualização e controle em tempo real | Next.js, Supabase, Grafana |
-| **Token de Incentivo** | Economia descentralizada e rewards | Smart Contracts (ERC-20 / Polygon) |
+| **Token de Incentivo** | Economia descentralizada e recompensas | Smart Contracts (ERC-20 / Polygon) |
 
 ---
 
@@ -65,7 +75,7 @@ Um **módulo autônomo híbrido** de computação e energia renovável, operando
 
 **Especificações:**
 - **Painéis solares:** 2,5–4 kWp  
-- **Turbina eólica vertical:** 500–1500 W, baixo ruído (<40 dB)  
+- **Turbina eólica vertical:** 500–1500 W, ímã permanente e baixo ruído (<40 dB)  
 - **Baterias:** 10–20 kWh LiFePO₄ + supercapacitores  
 - **Inversor híbrido:** 5 kVA / 48 V  
 - **CPU:** Ryzen 7 / Xeon Silver  
