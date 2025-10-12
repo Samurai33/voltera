@@ -28,7 +28,8 @@ Cada unidade **VoltEra Node** é um **nó inteligente de energia e computação*
 ## 🖼 Ilustração do Node Híbrido
 
 <div align="center">
-  <img src="https://sdmntprcentralus.oaiusercontent.com/files/00000000-5e0c-61f5-b992-fb0f365d19aa/raw?se=2025-10-12T06%3A49%3A37Z&sp=r&sv=2024-08-04&sr=b&scid=63b0a002-7308-5484-b7fb-a3649e6219e1&skoid=f28c0102-4d9d-4950-baf0-4a8e5f6cf9d4&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-10-11T10%3A57%3A23Z&ske=2025-10-12T10%3A57%3A23Z&sks=b&skv=2024-08-04&sig=bEEdzMwC5VIYGcy65Zcm4DrZlvp%2B3ySxmpJ0XEHaXN0%3D" alt="VoltEra Hybrid Node" width="70%" style="border-radius:12px; margin-top:10px;">
+  <img src="https://sdmntprcentralus.oaiusercontent.com/files/00000000-5e0c-61f5-b992-fb0f365d19aa/raw?se=2025-10-12T06%3A49%3A37Z&sp=r&sv=2024-08-04&sr=b&scid=63b0a002-7308-5484-b7fb-a3649e6219e1&skoid=f28c0102-4d9d-4950-baf0-4a8e5f6cf9d4&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-10-11T10%3A57%3A23Z&ske=2025-10-12T10%3A57%3A23Z&sks=b&skv=2024-08-04&sig=bEEdzMwC5VIYGcy65Zcm4DrZlvp%2B3ySxmpJ0XEHaXN0%3D" 
+       alt="VoltEra Hybrid Node" width="70%" style="border-radius:12px; margin-top:10px;">
   <br/>
   <em>Visualização conceitual do Node VoltEra híbrido solar + eólico</em>
 </div>
@@ -46,11 +47,19 @@ O **VoltEra Node** combina tecnologias de energia renovável e computação avan
 - **🧠 Orquestração IA** — Balanceamento dinâmico entre vento, sol, carga e workloads  
 - **🔗 Rede P2P Segura** — Interconexão descentralizada e criptografada entre nós  
 
-Cada nó se adapta automaticamente ao clima e à demanda energética:
+Cada nó se adapta automaticamente ao clima e à demanda energética:  
 > se o sol se põe, o vento assume; se o vento cessa, o sol recarrega; se há ociosidade, ela é monetizada.
 
-![VoltEra Network](voltera_network_diagram.png)
-*Arquitetura híbrida solar-eólica e computacional da rede VoltEra*
+---
+
+## 🧭 Arquitetura VoltEra Network
+
+<div align="center">
+  <img src="https://sdmntprcentralus.oaiusercontent.com/files/00000000-4fbc-61f5-889c-8568a1d7ad46/raw?se=2025-10-12T06%3A59%3A57Z&sp=r&sv=2024-08-04&sr=b&scid=74f44f0e-a523-5c62-9796-8f447e7f635a&skoid=f28c0102-4d9d-4950-baf0-4a8e5f6cf9d4&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-10-11T12%3A18%3A22Z&ske=2025-10-12T12%3A18%3A22Z&sks=b&skv=2024-08-04&sig=DQM1ewmAbp9mh7RzUSEpeBDjIEQOylVzEkJNDRr/8S0%3D"
+       alt="VoltEra Network Hybrid Architecture Diagram" width="70%" style="border-radius:12px; margin-top:10px;">
+  <br/>
+  <em>Arquitetura híbrida solar-eólica e computacional da rede VoltEra</em>
+</div>
 
 ---
 
@@ -79,7 +88,7 @@ Um **módulo autônomo híbrido** de computação e energia renovável, operando
 - **Baterias:** 10–20 kWh LiFePO₄ + supercapacitores  
 - **Inversor híbrido:** 5 kVA / 48 V  
 - **CPU:** Ryzen 7 / Xeon Silver  
-- **GPU (opcional):** RTX 4070Ti / A4000 / MI210  
+- **GPU (opcional):** RTX 4070 Ti / A4000 / MI210  
 - **RAM:** 64–128 GB ECC  
 - **Storage:** 8–20 TB SSD + IPFS Sync  
 - **Rede:** 10 GbE / LTE / Mesh Wi-Fi  
@@ -110,12 +119,12 @@ O **VoltEra Cloud Dashboard** inclui um **Marketplace Integrado**, permitindo qu
 | ⚡ **Energia Excedente** | P2P / Grid Connect | Venda direta ou via rede elétrica local |
 | 🧮 **Processamento (CPU/GPU)** | Pay-per-task / Leasing | Execução de IA, renderização ou simulações |
 | 💾 **Armazenamento** | Pay-per-GB / IPFS Contracts | Espaço de dados redundante e seguro |
-| ☁️ **Infra completa (VMs)** | Container/VM Hosting | Hospedagem descentralizada de apps |
+| ☁️ **Infra completa (VMs)** | Container / VM Hosting | Hospedagem descentralizada de apps |
 
 ### 🔁 Economia VoltEra Token
 - Cada transação é registrada no **ledger blockchain interno**.  
 - Operadores recebem **VoltEra Tokens (VLT)** por uptime, energia gerada e recursos alugados.  
-- Tokens podem ser usados para upgrades, serviços, ou convertidos via exchanges Web3 compatíveis.
+- Tokens podem ser usados para upgrades, serviços, ou convertidos via exchanges Web3.
 
 ---
 
@@ -138,16 +147,16 @@ O **VoltEra Cloud Dashboard** inclui um **Marketplace Integrado**, permitindo qu
 ## 💰 Modelo de Negócio
 
 ### 💎 Hardware
-- **Node Base (Solar)**: R$ 65.000  
-- **Node Hybrid (Solar + Wind)**: R$ 75.000  
-- **Node Pro (GPU)**: R$ 95.000  
-- **Cluster Enterprise (3+ Nós)**: sob consulta  
+- **Node Base (Solar):** R$ 65 000  
+- **Node Hybrid (Solar + Wind):** R$ 75 000  
+- **Node Pro (GPU):** R$ 95 000  
+- **Cluster Enterprise (3+ Nós):** sob consulta  
 
 ### ☁️ Serviços e Rede
-- **VoltEra Cloud Access**: R$ 199/mês  
-- **Distributed AI + Analytics**: R$ 299/mês  
-- **Marketplace Operator Fee**: 3% sobre transações  
-- **Node Rewards**: até 12% ROI anual em tokens VLT  
+- **VoltEra Cloud Access:** R$ 199/mês  
+- **Distributed AI + Analytics:** R$ 299/mês  
+- **Marketplace Operator Fee:** 3% sobre transações  
+- **Node Rewards:** até 12% ROI anual em tokens VLT  
 
 ---
 
@@ -203,7 +212,7 @@ Uso comercial e redistribuição não autorizados sem consentimento.
 <div align="center">
 
 **VoltEra Technologies**  
-*Descentralizando energia e computação — uma revolução solar e eólica com economia descentralizada.*
+*Descentralizando energia e computação — uma revolução solar e eólica com economia distribuída.*
 
 [![Website](https://img.shields.io/badge/🌐_voltera--dash.vercel.app-Visit_Our_Site-blue?style=for-the-badge)](https://voltera-dash.vercel.app/)
 
