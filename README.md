@@ -5,9 +5,9 @@
 [![Website](https://img.shields.io/badge/🌐_Website-voltera--dash.vercel.app-blue?style=for-the-badge)](https://voltera-dash.vercel.app/)
 [![Status](https://img.shields.io/badge/Status-Network_Architecture_Development-yellow?style=for-the-badge)]()
 [![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)]()
-[![Energy](https://img.shields.io/badge/⚡_Powered_by-Solar_Energy-green?style=for-the-badge)]()
+[![Energy](https://img.shields.io/badge/⚡_Powered_by-Solar_+_Wind_Energy-green?style=for-the-badge)]()
 
-**A infraestrutura solar descentralizada para a nova era da computação**
+**A infraestrutura solar-eólica descentralizada para a nova era da computação**
 
 *Energia autônoma • Computação distribuída • Soberania digital*
 
@@ -17,27 +17,30 @@
 
 ## 🧭 Visão Geral
 
-A **VoltEra** é uma rede de **mini data centers solares autônomos**, projetada para **descentralizar o poder computacional** atualmente concentrado em Big Techs como Google, Microsoft e Amazon.
+A **VoltEra** é uma rede de **mini data centers híbridos autônomos** movidos por **energia solar e eólica**, projetada para **descentralizar o poder computacional e energético** concentrado hoje em gigantes como Google, Microsoft e Amazon.
 
-Cada unidade VoltEra é um **nó energético e computacional autossuficiente**, capaz de gerar sua própria energia, armazenar dados localmente e participar de uma **rede P2P global** de computação verde.
+Cada unidade **VoltEra Node** é um **nó inteligente de energia e computação**, capaz de gerar, armazenar e compartilhar seus próprios recursos em uma **rede global P2P de computação verde**.
 
-> ⚡ “A VoltEra transforma energia solar em poder computacional livre.”
+> ⚡ “A VoltEra transforma vento e sol em poder computacional livre.”
 
 ---
 
-## 🌞 O Conceito
+## 🌞🌬️ O Conceito
 
-O **VoltEra Node** combina:
-- **Energia Renovável** (painéis solares + baterias LiFePO₄)
-- **Compute de Alta Performance** (CPU/GPU server-grade)
-- **Storage Descentralizado** (IPFS, Storj ou Sia)
-- **Rede P2P Segura** (WireGuard + LibP2P)
-- **Monitoramento IA** (autobalanceamento de energia e carga)
+O **VoltEra Node** combina tecnologias de energia renovável e computação avançada em um único sistema modular:
 
-Cada nó pode operar **de forma isolada (off-grid)** ou **como parte de uma rede global**, redistribuindo energia, poder de processamento e armazenamento.
+- **☀️ Solar Power** — Geração diurna com painéis fotovoltaicos de alta eficiência  
+- **🌬️ Wind Power** — Geração noturna e constante com turbinas eólicas verticais silenciosas  
+- **🔋 Armazenamento Inteligente** — Baterias LiFePO₄ + supercapacitores  
+- **🧠 Orquestração IA** — Balanceamento dinâmico entre vento, sol e carga computacional  
+- **💻 Compute Descentralizado** — Hospedagem de IA, web, renderização e containers locais  
+- **🔗 Rede P2P Segura** — Interconexão descentralizada e criptografada entre nós  
 
-![VoltEra Network](voltera_network_diagram.png)
-*Arquitetura técnica da rede solar descentralizada VoltEra*
+Cada nó se adapta ao clima em tempo real:  
+> se o sol se põe, o vento assume; se o vento cessa, o sol recarrega.
+
+![VoltEra Hybrid Node](voltera_hybrid_diagram.png)
+*Arquitetura híbrida solar-eólica e computacional do sistema VoltEra*
 
 ---
 
@@ -45,95 +48,96 @@ Cada nó pode operar **de forma isolada (off-grid)** ou **como parte de uma rede
 
 | Camada | Função | Tecnologias |
 |--------|--------|-------------|
-| **Energia** | Geração solar + armazenamento local | MPPT, LiFePO₄, 48VDC bus, inversores híbridos |
-| **Computação** | Execução de containers e IA local | K3s, Docker, GPU AMD/NVIDIA, Ryzen/EPYC |
+| **Energia** | Geração solar + eólica + armazenamento local | MPPT Solar + MPPT Wind, LiFePO₄, 48VDC bus, inversores híbridos |
+| **Computação** | Execução de workloads e IA local | K3s, Docker, GPU AMD/NVIDIA, Ryzen/EPYC |
 | **Storage** | Armazenamento distribuído e redundante | IPFS, Sia, Storj |
 | **Rede** | Conexão P2P criptografada | WireGuard, Tailscale, LibP2P |
-| **Orquestração IA** | Distribuição dinâmica de workloads | Python, Node-RED, MQTT, OpenAI API |
-| **Dashboard Global** | Visualização e controle de todos os nós | Next.js, Supabase, Grafana |
-| **Token de Incentivo** | Economia descentralizada da rede | Smart Contracts (ERC-20 / Polygon) |
+| **Orquestração IA** | Distribuição e otimização energética e computacional | Python, Node-RED, MQTT, OpenAI API |
+| **Dashboard Global** | Visualização e controle em tempo real | Next.js, Supabase, Grafana |
+| **Token de Incentivo** | Economia descentralizada e rewards | Smart Contracts (ERC-20 / Polygon) |
 
 ---
 
 ## 🧱 O Produto
 
 ### 🧩 VoltEra Node (Unidade Base)
-Um **módulo autônomo de computação e energia**, operando 100% com energia solar.
+Um **módulo autônomo híbrido** de computação e energia renovável, operando 24h com vento e sol.
 
 **Especificações:**
-- Painéis solares: 2,5–4 kWp
-- Baterias: 10–15 kWh LiFePO₄
-- Inversor híbrido: 5 kVA / 48 V
-- CPU: Ryzen 7 / Xeon Silver
-- RAM: 64–128 GB ECC
-- Storage: 8–20 TB SSD + IPFS Sync
-- Rede: 10 GbE / LTE / Mesh Wi-Fi
-- Consumo médio: 400–800 W
-- Refrigeração: Ativa + Free Cooling
-- Controle: VoltEra Dash + API REST
+- **Painéis solares:** 2,5–4 kWp  
+- **Turbina eólica vertical:** 500–1500 W, baixo ruído (<40 dB)  
+- **Baterias:** 10–20 kWh LiFePO₄ + supercapacitores  
+- **Inversor híbrido:** 5 kVA / 48 V  
+- **CPU:** Ryzen 7 / Xeon Silver  
+- **RAM:** 64–128 GB ECC  
+- **Storage:** 8–20 TB SSD + IPFS Sync  
+- **Rede:** 10 GbE / LTE / Mesh Wi-Fi  
+- **Consumo médio:** 400–800 W  
+- **Controle:** VoltEra Dash + API REST  
 
 ---
 
 ## 🛰️ Rede Global VoltEra
 
 ### 🌐 Topologia
-Cada **VoltEra Node** é parte de uma **rede mesh descentralizada**:
-- Sincroniza dados e cargas computacionais entre pares
-- Redistribui energia solar excedente localmente
-- Opera mesmo offline (sync assíncrono)
-- Balanceia tarefas por IA (proximidade, energia, carga)
+Cada **VoltEra Node** é parte de uma **rede mesh descentralizada**, onde:
+- Compartilha energia excedente (solar/eólica) localmente  
+- Sincroniza dados e workloads entre pares via IPFS  
+- Opera off-grid e sincroniza quando há conexão  
+- Equilibra tarefas por IA conforme energia disponível  
 
 ### ⚙️ Operações Distribuídas
-- Renderização de IA e vídeo  
-- Hospedagem de serviços locais  
-- Armazenamento descentralizado (dApp / web3)  
-- Execução de agentes e LLMs locais  
+- Execução de LLMs e agentes de IA locais  
+- Hospedagem de aplicações edge e dApps  
+- Armazenamento descentralizado redundante  
+- Renderização colaborativa e streaming distribuído  
 
 ---
 
 ## 🔒 Segurança e Autonomia
 
 ### ⚡ Energética
-- Painéis + Baterias LiFePO₄ (autonomia 24–48h)
-- Gestão térmica e PUE < 1.3
+- Geração híbrida solar-eólica 24h  
+- Baterias LiFePO₄ + supercapacitores  
+- PUE < 1.3 e eficiência térmica inteligente  
 - Proteção elétrica completa (SPD, DR, UPS)
 
 ### 🔐 Digital
-- Criptografia ponta a ponta (AES-256 + WireGuard)
-- Autenticação federada e zero-trust
-- Ledger blockchain para verificação de uptime e energia
-- Compliância LGPD / ISO 27001
+- Criptografia ponta a ponta (AES-256 + WireGuard)  
+- Autenticação federada e zero-trust  
+- Ledger blockchain para uptime e geração verificada  
+- Compliance: LGPD, ISO 27001, ISO 50001  
 
 ---
 
 ## 📊 VoltEra Cloud Dashboard
 
 ### 🌍 Painel Global
-- Status de todos os nós ativos
-- Geração solar vs consumo
-- Workloads executando
-- Recompensas de tokens
-- Métricas ambientais (CO₂ evitado, uptime, temperatura)
+- Status de geração solar/eólica em tempo real  
+- Energia disponível e consumo de cada nó  
+- Workloads ativas e histórico de uptime  
+- Recompensas e métricas ambientais  
 
 ### 🔔 Alertas Inteligentes
-- Excedente energético disponível
-- Queda de produção solar
-- Falha em nó remoto
-- Desvio térmico
+- Falhas de geração solar ou eólica  
+- Sobrecarga térmica ou de consumo  
+- Desbalanceamento de energia entre nós  
+- Notificações de tokens e recompensas  
 
 ---
 
 ## 💰 Modelo de Negócio
 
 ### 💎 Hardware
-- **Node Base**: R$ 65.000  
+- **Node Base (Solar)**: R$ 65.000  
+- **Node Hybrid (Solar + Wind)**: R$ 75.000  
 - **Node Pro (GPU)**: R$ 95.000  
-- **Node Enterprise (Cluster)**: sob consulta  
+- **Cluster Enterprise (3+ Nós)**: sob consulta  
 
 ### ☁️ Serviços e Rede
 - **VoltEra Cloud Access**: R$ 199/mês  
-- **Analytics + IA Distribuída**: R$ 299/mês  
-- **Node Operator Rewards**: até 12% ROI anual via tokens
+- **Distributed AI + Analytics**: R$ 299/mês  
+- **Node Operator Rewards**: até 12% ROI anual via tokens  
 
 ---
 
@@ -141,21 +145,22 @@ Cada **VoltEra Node** é parte de uma **rede mesh descentralizada**:
 
 | Período | Etapa |
 |----------|-------|
-| **Q1 2025** | MVP Node funcional + integração solar |
-| **Q2 2025** | Rede local P2P + IPFS Sync |
+| **Q1 2025** | MVP Node Solar funcional + teste de geração híbrida |
+| **Q2 2025** | Rede P2P local + IPFS Sync |
 | **Q3 2025** | VoltEra Cloud Dashboard + token interno |
-| **Q4 2025** | Beta público de rede descentralizada |
-| **Q2 2026** | Lançamento comercial global |
+| **Q4 2025** | Beta público (rede descentralizada solar-eólica) |
+| **Q1 2026** | Lançamento comercial global |
+| **Q3 2026** | Integração completa com IA orquestradora e balanceamento multi-nó |
 
 ---
 
 ## 🧩 Parcerias Estratégicas
 
-- 🌞 **Fabricantes de Energia Solar**
-- 🧠 **Plataformas de IA Distribuída**
-- 🖥️ **Fabricantes de Servidores Edge**
-- 🌐 **Infraestrutura Web3**
-- 🧪 **Centros de P&D e Universidades**
+- ☀️ **Fabricantes de energia solar e turbinas verticais**  
+- 🧠 **Plataformas de IA distribuída e edge computing**  
+- 🖥️ **Fornecedores de hardware server-grade**  
+- 🌐 **Projetos Web3 e armazenamento descentralizado**  
+- 🧪 **Universidades e centros de P&D em energia e IA**  
 
 ---
 
@@ -163,12 +168,12 @@ Cada **VoltEra Node** é parte de uma **rede mesh descentralizada**:
 
 | Pilar | Descrição |
 |--------|-----------|
-| **Descentralização Real** | Computação e energia independentes das Big Techs |
-| **Energia Verde Autônoma** | 100% solar, com armazenamento local |
-| **Rede Global P2P** | Interconexão segura e autobalanceada |
-| **Economia Colaborativa** | Cada nó é um ativo que gera valor |
-| **IA Integrada** | Gerenciamento e orquestração inteligentes |
-| **Sustentabilidade Transparente** | Métricas públicas de eficiência e CO₂ evitado |
+| **Energia Híbrida Autônoma** | Solar + eólica + baterias inteligentes |
+| **Descentralização Computacional** | Rede P2P com IA de orquestração |
+| **Sustentabilidade 24h** | Operação contínua e neutra em carbono |
+| **Economia Colaborativa** | Cada nó gera, hospeda e lucra |
+| **Escalabilidade Modular** | De 1 nó local a clusters regionais |
+| **Segurança e Transparência** | Blockchain + monitoramento em tempo real |
 
 ---
 
@@ -177,6 +182,7 @@ Cada **VoltEra Node** é parte de uma **rede mesh descentralizada**:
 **Regulamentações:**
 - Lei 14.300/2022 — Microgeração Distribuída  
 - REN 1098/2024 — Geração Local ANEEL  
+- ABNT NBR 16149 — Sistemas Híbridos Fotovoltaicos e Eólicos  
 - LGPD / ISO 27001 / ISO 50001  
 
 **Licença:** Proprietária © 2025 VoltEra Technologies  
@@ -187,7 +193,7 @@ Uso comercial e redistribuição não autorizados sem consentimento.
 <div align="center">
 
 **VoltEra Technologies**  
-*Descentralizando energia e computação — uma revolução solar.*
+*Descentralizando energia e computação — uma revolução solar e eólica.*
 
 [![Website](https://img.shields.io/badge/🌐_voltera--dash.vercel.app-Visit_Our_Site-blue?style=for-the-badge)](https://voltera-dash.vercel.app/)
 
