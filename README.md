@@ -28,7 +28,7 @@ Cada unidade **VoltEra Node** é um **nó inteligente de energia e computação*
 ## 🖼 Ilustração do Node Híbrido
 
 <div align="center">
-  <img src="https://sdmntprcentralus.oaiusercontent.com/files/00000000-5e0c-61f5-b992-fb0f365d19aa/raw?se=2025-10-12T06%3A49%3A37Z&sp=r&sv=2024-08-04&sr=b&scid=63b0a002-7308-5484-b7fb-a3649e6219e1&skoid=f28c0102-4d9d-4950-baf0-4a8e5f6cf9d4&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-10-11T10%3A57%3A23Z&ske=2025-10-12T10%3A57%3A23Z&sks=b&skv=2024-08-04&sig=bEEdzMwC5VIYGcy65Zcm4DrZlvp%2B3ySxmpJ0XEHaXN0%3D" 
+  <img src="https://i.ibb.co/CKNJ3n8z/Voltera.png" 
        alt="VoltEra Hybrid Node" width="70%" style="border-radius:12px; margin-top:10px;">
   <br/>
   <em>Visualização conceitual do Node VoltEra híbrido solar + eólico</em>
@@ -55,7 +55,7 @@ Cada nó se adapta automaticamente ao clima e à demanda energética:
 ## 🧭 Arquitetura VoltEra Network
 
 <div align="center">
-  <img src="https://sdmntprcentralus.oaiusercontent.com/files/00000000-4fbc-61f5-889c-8568a1d7ad46/raw?se=2025-10-12T06%3A59%3A57Z&sp=r&sv=2024-08-04&sr=b&scid=74f44f0e-a523-5c62-9796-8f447e7f635a&skoid=f28c0102-4d9d-4950-baf0-4a8e5f6cf9d4&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-10-11T12%3A18%3A22Z&ske=2025-10-12T12%3A18%3A22Z&sks=b&skv=2024-08-04&sig=DQM1ewmAbp9mh7RzUSEpeBDjIEQOylVzEkJNDRr/8S0%3D"
+  <img src="https://i.ibb.co/PGYNTqhs/arquitetura.png"
        alt="VoltEra Network Hybrid Architecture Diagram" width="70%" style="border-radius:12px; margin-top:10px;">
   <br/>
   <em>Arquitetura híbrida solar-eólica e computacional da rede VoltEra</em>
@@ -141,6 +141,67 @@ O **VoltEra Cloud Dashboard** inclui um **Marketplace Integrado**, permitindo qu
 - Desbalanceamento de energia entre nós  
 - Demanda computacional alta em nós próximos  
 - Notificações de vendas e pagamentos de tokens  
+
+---
+
+## 🎛️ VoltEra Dash - Interface de Controle Avançada
+
+<div align="center">
+  <img src="https://i.ibb.co/hRcN5m4p/dash-voltera.png" 
+       alt="VoltEra Dash Interface" width="70%" style="border-radius:12px; margin-top:10px;">
+  <br/>
+  <em>VoltEra Dash - Dashboard de Monitoramento e Controle</em>
+</div>
+
+### 📦 Repositório
+[GreenPulse - VoltEra Dash Repository](https://github.com/Samurai33/GreenPulse)
+
+### 🌐 Demo ao Vivo
+[Acesse o VoltEra Dash em Produção](https://greenpulse-pi.vercel.app/)
+
+### ⚙️ Funcionalidades Principais
+
+**📊 Visualização em Tempo Real**
+- KPIs críticos: Energia gerada, Emissões de carbono evitadas, SRE (Service Reliability Engagement), Status do Marketplace
+- Gráficos interativos com histórico e previsões
+- Visão consolidada de múltiplos nós em tempo real
+
+**🚨 Alertas Inteligentes e Personalizáveis**
+- Notificações em três níveis: críticos, warning e informativos
+- Regras personalizáveis por operador
+- Integração com sistemas de comunicação (email, webhook, Slack)
+
+**🎨 Interface Responsiva e Moderna**
+- Construída com **React + Tailwind CSS**
+- Design moderno e intuitivo
+- Otimizada para desktop, tablet e mobile
+
+**🧪 Simulação de Dados**
+- Modo sandbox para testes e demonstrações
+- Geração de dados realistas para validação
+- Perfeito para treinamento e POCs
+
+**📄 Exportação de Relatórios**
+- Suporta múltiplos formatos: CSV, JSON, PDF
+- Agendamento automático de relatórios
+- Customização de templates
+
+**🏗️ Arquitetura Escalável e Modular**
+- Components reutilizáveis e bem documentados
+- Fácil integração com APIs externas
+- Suporte a plugins e extensões
+- Performance otimizada para grandes volumes de dados
+
+**💰 Marketplace Integrado**
+- Compra e venda de recursos computacionais
+- Histórico de transações e faturamento
+- Gerenciamento de contratos e SLAs
+
+**🏥 Monitoramento de Saúde Operacional**
+- **Golden Signals**: Latência, Taxa de Erro, Utilização, Saturação
+- **Health Check Hardware**: CPU, memória, disco, temperatura
+- **Incident Management**: Rastreamento e resolução de incidentes
+- **Uptime Tracking**: Histórico de disponibilidade por nó
 
 ---
 
