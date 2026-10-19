@@ -12,6 +12,7 @@ LiFePO4 storage and edge-compute capacity — sized for creators, e-sports and s
 [![Dashboard](https://img.shields.io/badge/operational%20demo-voltera--dash.vercel.app-16A34A?style=for-the-badge&logo=vercel&logoColor=white)](https://voltera-dash.vercel.app)
 [![Website](https://img.shields.io/badge/n3xus.dev-0B1220?style=for-the-badge&logo=googlechrome&logoColor=14B8A6)](https://n3xus.dev)
 [![Status](https://img.shields.io/badge/status-concept%20%26%20feasibility-F59E0B?style=for-the-badge)](#current-status)
+[![License](https://img.shields.io/badge/License-CC%20BY%204.0-EF9421?style=for-the-badge&logo=creativecommons&logoColor=white)](LICENSE)
 
 [![PRD](https://img.shields.io/badge/PRD-architecture-111827?style=flat-square&logo=markdown&logoColor=white)](VolTera_PRD_and_Architecture.md)
 [![BOM](https://img.shields.io/badge/BOM-xlsx-217346?style=flat-square&logo=microsoftexcel&logoColor=white)](VolTera_BOM.xlsx)
